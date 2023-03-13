@@ -14,12 +14,3 @@ repos:
     rev: v2.3.1
     hooks:
       - id: prettier
-  - repo: https://github.com/doublify/pre-commit-rust
-    rev: v1.0
-    hooks:
-      - id: fmt
-        files: \client\.rs$
-      - id: cargo-check
-        files: \client\.rs$
-      - id: clippy
-        files: \client\.rs$

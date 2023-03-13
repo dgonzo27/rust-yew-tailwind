@@ -2,7 +2,7 @@
 
 [![Rust](https://img.shields.io/badge/Rust-v1.67.1-blue?logo=rust&logoColor=000000)](https://www.rust-lang.org) [![Yew](https://img.shields.io/badge/Yew-v0.20-blue?logo=yubico&logoColor=84BD00)](https://yew.rs) [![Node](https://img.shields.io/badge/Node-v18.13.0-blue?logo=node.js&logoColor=339933)](https://nodejs.org/en/) [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v3.2.7-blue?logo=tailwindcss&logoColor=06B6D4)](https://tailwindcss.com) [![Pre-Commit](https://img.shields.io/badge/Hooks-Pre--Commit-blue?logo=pre-commit&logoColor=FAB040)](https://pre-commit.com) [![GitHub_Actions](https://img.shields.io/badge/CI/CD-GitHub_Actions-blue?logo=githubactions&logoColor=2088FF)](https://docs.github.com/en/actions)
 
-This repository contains a Rust (Yew) frontend that leverages Tailwind CSS for theming and styling.  Additionally, this repository implements state management using the [bounce](https://bounce-rs.org) library - similar to [zustand](https://github.com/pmndrs/zustand) as it relates to Redux state management in ReactJS.
+This repository contains a Rust (Yew) frontend that leverages Tailwind CSS for theming and styling. Additionally, this repository implements state management using the [bounce](https://bounce-rs.org) library - similar to [zustand](https://github.com/pmndrs/zustand) as it relates to Redux state management in ReactJS.
 
 ![Application Preview](./.github/assets/rust-yew-tailwind-preview.png)
 
@@ -35,7 +35,7 @@ Before jumping into the code, there are a few prerequisites.
 
 6. [Node Version Manager](https://github.com/nvm-sh/nvm) should be installed on your machine for managing node versions for current and future maintenance of UI packages. This project is currently using v18.13.0.
 
-    ```sh
+   ```sh
    source ~/.nvm/nvm.sh  # activate nvm once installed
 
    nvm install v18.13.0  # install node
@@ -73,17 +73,17 @@ Before jumping into the code, there are a few prerequisites.
 
 5. Setup the project.
 
-    ```sh
-    cd client
-    
-    npm run setup
-    ```
+   ```sh
+   cd client
+
+   npm run setup
+   ```
 
 6. Run the project.
 
-    ```sh
-    npm run dev
-    ```
+   ```sh
+   npm run dev
+   ```
 
 7. Visit [http://localhost:8080](http://localhost:8080).
 

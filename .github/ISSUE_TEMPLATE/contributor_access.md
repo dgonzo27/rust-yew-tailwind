@@ -1,10 +1,9 @@
 ---
 name: Contributor access
 about: Request access to become a contributor for this project
-title: ''
+title: ""
 labels: access
-assignees: ''
-
+assignees: ""
 ---
 
 **Why would you like to contribute to this project?**
