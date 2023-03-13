@@ -1,0 +1,6 @@
+client/target
+client/node_modules
+client/tailwind.css
+client/dist
+client/Cargo.lock
+client/package-lock.json
